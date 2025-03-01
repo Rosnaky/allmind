@@ -18,25 +18,25 @@ const TitleTile = () => {
                 </div>
                 <div className="flex flex-row gap-6">
                     <button className="bg-white text-[var(--deep-sky-blue)] rounded-sm border border--[var(--deep-sky-blue)]">
-                    <a 
-                        href="https://www.massdriver.cloud/demo" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="mx-6 my-2 block h-full"
-                    >
-                        See a demo
-                    </a>
+                        <a 
+                            href="https://www.massdriver.cloud/demo" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="mx-6 my-2 block h-full"
+                        >
+                            See a demo
+                        </a>
                     </button>
                     <button className="text-white bg-[var(--deep-sky-blue)] bg-gradient-to-r from-[rgba(0,123,255,0.5)] to-[var(--deep-sky-blue)] rounded-sm border border--[var(--deep-sky-blue)]">
-                    <a 
-                        href="https://app.massdriver.cloud/register" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="flex flex-row mx-6 my-2 block h-full"
-                    >
-                        Start free trial
-                        <ArrowRightIcon className="pl-1 mt-0.5 h-5 w-5"/>
-                    </a>
+                        <a 
+                            href="https://app.massdriver.cloud/register" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="flex flex-row mx-6 my-2 block h-full"
+                        >
+                            Start free trial
+                            <ArrowRightIcon className="pl-1 mt-0.5 h-5 w-5"/>
+                        </a>
                     </button>
                 </div>
             </main>
