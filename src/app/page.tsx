@@ -1,4 +1,5 @@
 import AppBar from "./components/app_bar";
+import CaseStudy from "./components/case_study";
 import DeliverOnDemandTile from "./components/deliver_on_demand_tile";
 import Headline from "./components/headline";
 import HowItWorksTile from "./components/how_it_works_tile";
@@ -17,6 +18,7 @@ export default function Home() {
 
       <DeliverOnDemandTile/>
       <InfrastructureTile/>
+      <CaseStudy/>
     </div>
   );
 }
