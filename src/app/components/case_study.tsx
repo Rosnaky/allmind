@@ -1,6 +1,8 @@
 import { ArrowRightIcon, CircleStackIcon } from "@heroicons/react/16/solid";
 import { EllipsisHorizontalCircleIcon } from "@heroicons/react/20/solid";
 import Image from "next/image"
+import Podcast from "./podcast";
+import Testimony from "./testimony";
 
 const CaseStudy = () => {
     return (
@@ -54,7 +56,57 @@ const CaseStudy = () => {
                     </a>
                 </button>
             </div>
+            <Podcast/>
+            <Testimony/>
 
+            <div className="flex mx-auto w-1/2 text-3xl text-white pt-16 text-center text-balanced">
+            We're confident Massdriver will transform how your team operates. Are you ready to simplify?
+            </div>
+
+            <div className="flex flex-row justify-center gap-4">
+                
+                <div className="flex flex-row justify-center mt-16">
+                    <button className="text-white bg-[var(--deep-sky-blue)] bg-gradient-to-r from-[rgba(0,123,255,0.5)] to-[var(--deep-sky-blue)] rounded-sm">
+                        <a 
+                            href="https://www.massdriver.cloud/demo" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="flex flex-row mx-6 my-2 block h-full"
+                        >
+                            See a demo
+                            <ArrowRightIcon className="pl-1 mt-0.5 h-5 w-5"/>
+                        </a>
+                    </button>
+                </div>
+
+                <div className="flex flex-row justify-center mt-16 border border-white rounded-sm">
+                    <button className="text-white rounded-sm">
+                        <a 
+                            href="https://app.massdriver.cloud/register" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="flex flex-row mx-6 my-2 block h-full"
+                        >
+                            See a demo
+                            <ArrowRightIcon className="pl-1 mt-0.5 h-5 w-5"/>
+                        </a>
+                    </button>
+                </div>
+
+                <div className="flex flex-row justify-center mt-16 border border-white rounded-sm">
+                    <button className="text-white rounded-sm">
+                        <a 
+                            href="https://share.hsforms.com/1iSuR5rAqQ1O-XHRHeaXbDAd5gi0?__hstc=185991670.6d8d7ca7ce50445347ded0d62ee66db6.1729896147338.1734039318375.1734048514477.39&__hssc=185991670.1.1734048514477&__hsfp=1110032445" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="flex flex-row mx-6 my-2 block h-full"
+                        >
+                            Get our Newsletter
+                            <ArrowRightIcon className="pl-1 mt-0.5 h-5 w-5"/>
+                        </a>
+                    </button>
+                </div>
+            </div>
         </div>
     );
 }
