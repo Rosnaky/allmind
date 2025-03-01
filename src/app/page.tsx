@@ -1,5 +1,6 @@
 import AppBar from "./components/app_bar";
 import Headline from "./components/headline";
+import HowItWorksTile from "./components/how_it_works_tile";
 import TitleTile from "./components/title_tile";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Headline/>
       <AppBar/>
       <TitleTile/>
+      <HowItWorksTile/>
     </div>
   );
 }

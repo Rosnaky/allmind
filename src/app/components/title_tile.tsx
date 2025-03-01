@@ -2,7 +2,7 @@ import { ArrowRightIcon } from "@heroicons/react/16/solid";
 
 const TitleTile = () => {
     return (
-        <div className="items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-host-grotesk)]">
+        <div className="items-center justify-items-center p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-host-grotesk)]">
             <main className="flex flex-col gap-8 items-center">
                 <div id="title-tile" className="flex flex-col items-center text-center text-balance">
                     {// TODO: Add bg image
