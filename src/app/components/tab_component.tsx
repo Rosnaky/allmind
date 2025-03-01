@@ -9,7 +9,7 @@ const TabComponent = () => {
     const [title, setTitle] = useState("");
     const [descriptionTop, setDescriptionTop] = useState("");
     const [descriptionBottom, setDescriptionBottom] = useState("");
-    const [image, setImage] = useState("");
+    const [image, setImage] = useState(null);
 
     useEffect(() => {
         if (activeTab === "code") {
@@ -66,14 +66,16 @@ const TabComponent = () => {
                         </div>
                     </div>
                     <div className="flex flex-col items-center w-3/5">
-                        <Image
-                        
-                            src={image}
-                            alt="display image"
-                            width={1600}
-                            height={900}
-                            objectFit="contain"
-                        />
+                        {
+                            image ? <Image
+                            
+                                src={image}
+                                alt="display image"
+                                width={1600}
+                                height={900}
+                                objectFit="contain"
+                            /> : null
+                        }
                         <div className="text-white bg-[var(--dark-blue)] rounded-full px-2 mt-1 font-light text-sm">
                             {
                                 activeTab === "code" ? 1 :
