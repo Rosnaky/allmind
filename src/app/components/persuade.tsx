@@ -20,7 +20,7 @@ const Persuade = () => {
                         Cut the red tape.
                     </div>
                     <div className="text-sm">
-                    Download the Massdriver pitch deck to convince them it's time for true developer self-service.
+                    Download the Massdriver pitch deck to convince them it&apos;s time for true developer self-service.
                     </div>
                 </div>
                 <ArrowDownTrayIcon width={50} height={50} className="mr-4"/>

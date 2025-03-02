@@ -16,7 +16,7 @@ const InfrastructureTile = () => {
                             Cloud Service Catalog
                         </div>
                         <div className="text-md font-light pt-4 text-balance">
-                        Your DevOps teams have a lot on their plate, don't lose another great teammate to burnout.
+                        Your DevOps teams have a lot on their plate, don&apos;t lose another great teammate to burnout.
                         </div>
                         <div className="text-md font-light pt-4 text-balance">
                         Enable developers to self-serve cloud infrastructure from approved IaC templates in a central catalog.
@@ -51,7 +51,7 @@ const InfrastructureTile = () => {
                             Cost & Health Insights
                         </div>
                         <div className="text-md font-light pt-4 text-balance">
-                        Get a clear view of your cloud's health and costs right where your developers manage their infrastructure.
+                        Get a clear view of your cloud&apos;s health and costs right where your developers manage their infrastructure.
                         </div>
                         <div className="text-md font-light pt-4 text-balance">
                         With real-time insights, you can make proactive adjustments, ensuring systems are efficient and cost-effective.

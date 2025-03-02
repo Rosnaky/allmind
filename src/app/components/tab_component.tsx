@@ -9,7 +9,7 @@ const TabComponent = () => {
     const [title, setTitle] = useState("");
     const [descriptionTop, setDescriptionTop] = useState("");
     const [descriptionBottom, setDescriptionBottom] = useState("");
-    const [image, setImage] = useState(null);
+    const [image, setImage] = useState<string | null>(null);
 
     useEffect(() => {
         if (activeTab === "code") {

@@ -12,7 +12,7 @@ const TitleTile = () => {
                     <h2>At Massdriver, we believe in prevention, not permission.</h2>
                     {// TODO: add ops hover thing
                         }
-                    <h2 className="pt-8">Our platform lets "ops" teams encode their expertise and your organization’s non-negotiables into preapproved self-service infrastructure powered by the IaC tools you already know. Massdriver—Fast by default. Safe by design.</h2>
+                    <h2 className="pt-8">Our platform lets &quot;ops&quot; teams encode their expertise and your organization’s non-negotiables into preapproved self-service infrastructure powered by the IaC tools you already know. Massdriver—Fast by default. Safe by design.</h2>
                     <h2 className="pt-8">Massdriver—Fast by default. Safe by design.</h2>
                     </div>
                 </div>

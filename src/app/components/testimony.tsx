@@ -10,7 +10,7 @@ const Testimony = () => {
 
             <div className="bg-white text-black mx-20 rounded-md p-8 pt-4 mt-4">
                 <div className="text-lg text-semibold text-balance">
-                "We are partnering with innovative companies like Massdriver to help founders achieve more. As a part of Microsoft for Startups Founders Hub, startups can now receive access to Massdriver's productivity tools, designed to streamline cloud management and reduce infrastructure development time."
+                &quot;We are partnering with innovative companies like Massdriver to help founders achieve more. As a part of Microsoft for Startups Founders Hub, startups can now receive access to Massdriver&apos;s productivity tools, designed to streamline cloud management and reduce infrastructure development time.&quot;
                 </div>
 
                 <div className="pt-4 flex flex-row items-center">
@@ -31,7 +31,7 @@ const Testimony = () => {
             />
             <div className="border-t-2 border-dotted border-gray-400 my-12 w-full"/>
             <div className="opacity-70 font-[family-name:var(--font-satoshi)] text-center text-balanced flex mx-auto text-xl w-2/3">
-                Built by a team of world-class cloud certified experts. Massdriver has passed rigorous CIS benchmarks for your favorite cloud's partnership network.
+                Built by a team of world-class cloud certified experts. Massdriver has passed rigorous CIS benchmarks for your favorite cloud&apos;s partnership network.
             </div>
 
             <div className="flex flex-row gap-12 mx-auto my-8 items-center">

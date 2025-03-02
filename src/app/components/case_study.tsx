@@ -1,5 +1,4 @@
-import { ArrowRightIcon, CircleStackIcon } from "@heroicons/react/16/solid";
-import { EllipsisHorizontalCircleIcon } from "@heroicons/react/20/solid";
+import { ArrowRightIcon } from "@heroicons/react/16/solid";
 import Image from "next/image"
 import Podcast from "./podcast";
 import Testimony from "./testimony";
@@ -31,10 +30,10 @@ const CaseStudy = () => {
             </div>
 
             <div className="text-md pt-4 pl-4 font-thin opacity-70">
-                Explore how AMD Global Telemedicine revolutionized their software deployment process, cutting down release effort by 89% with Massdriver's cloud solutions. This case study is a must-read for those aiming to scale efficiently and enhance team productivity through innovative cloud technology. Download now for key insights.
+                Explore how AMD Global Telemedicine revolutionized their software deployment process, cutting down release effort by 89% with Massdriver&apos;s cloud solutions. This case study is a must-read for those aiming to scale efficiently and enhance team productivity through innovative cloud technology. Download now for key insights.
             </div>
             <div className="flex flex-row text-md pt-4 pl-4 font-thin opacity-70">
-                - Reduced software release effort by 89% with Massdriver's cloud solutions.
+                - Reduced software release effort by 89% with Massdriver&apos;s cloud solutions.
             </div>
             <div className="flex flex-row text-md pt-4 pl-4 font-thin opacity-70">
                 - Managed a 100x workload surge without increasing engineering staff.
@@ -60,7 +59,7 @@ const CaseStudy = () => {
             <Testimony/>
 
             <div className="flex mx-auto w-1/2 text-3xl text-white pt-16 text-center text-balanced">
-            We're confident Massdriver will transform how your team operates. Are you ready to simplify?
+            We&apos;re confident Massdriver will transform how your team operates. Are you ready to simplify?
             </div>
 
             <div className="flex flex-row justify-center gap-4">
