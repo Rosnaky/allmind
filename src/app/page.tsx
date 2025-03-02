@@ -11,6 +11,7 @@ import SeeWhatsPossibleTile from "./components/see_whats_possible_tile";
 import TitleTile from "./components/title_tile";
 import Image from "next/image";
 import Footer from "./components/footer";
+import Reviews from "./components/reviews";
 
 export default function Home() {
     return (
@@ -20,7 +21,7 @@ export default function Home() {
             <TitleTile/>
             <HowItWorksTile/>
             <SeeWhatsPossibleTile/>
-
+            <Reviews/>
             <DeliverOnDemandTile/>
             <InfrastructureTile/>
             <CaseStudy/>
