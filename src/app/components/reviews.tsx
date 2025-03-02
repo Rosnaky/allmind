@@ -7,7 +7,7 @@ const Reviews = () => {
             <div className="text-4xl mx-12 font-light">
                 Loved by DevOps and Software Engineers
             </div>
-            <div className="w-2/3 pt-8">
+            <div className="w-2/3 pt-8 flex justify-center">
                 <Image
                     src="/reviews.png"
                     alt="reviews"
@@ -31,7 +31,7 @@ const Reviews = () => {
                     </a>
                 </button>
             </div>
-            <div className="w-2/3 pt-8">
+            <div className="w-2/3 pt-8 flex justify-center">
                 <Image
                     src="/featured.png"
                     alt="featured companies"
