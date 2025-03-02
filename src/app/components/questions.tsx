@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Questions = () => {
     return (
-        <div className="bg-white">
+        <div className="pb-12 bg-white">
             <div className="text-4xl font-[family-name:var(--font-satoshi)] pt-12 flex justify-center">
                 Still have questions?
             </div>

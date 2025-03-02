@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Footer = () => {
     return (
-        <footer className="bg-[var(--white-smoke-60)] text-black mt-12">
+        <footer className="bg-[var(--white-smoke-60)] text-black my-12">
             <div className="flex flex-row justify-between items-start mx-12">
                 <div className="flex flex-col gap-4">
                     <Image
